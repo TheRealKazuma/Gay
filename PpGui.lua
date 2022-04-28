@@ -1829,7 +1829,7 @@ local function LIWCD_fake_script() -- Tel_Tog.LocalScript
 			while toggleTP do 
     			task.wait()
 				local function annoy()
-    				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Target.Text].Character.HumanoidRootPart.CFrame + Vector3.new(0,210,0)
+    				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Target.Text].Character.HumanoidRootPart.CFrame + Vector3.new(0,195,0)
 				end 
 				delay(0, annoy)
 			end 
