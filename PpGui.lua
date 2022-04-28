@@ -159,8 +159,13 @@ TextButton_3.TextSize = 35.000
 
 TextButton_3.MouseButton1Click:Connect(function()
     task.wait()
-    	local placeId = 2202352383
-	game:GetService("TeleportService"):Teleport(placeId)
+    	    local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ 
+
+ts:Teleport(game.PlaceId, p)
 end)
 
 
