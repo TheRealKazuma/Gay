@@ -5,7 +5,7 @@ wait(0.5)
 local wh = 'https://discord.com/api/webhooks/958446886816215131/zm4NKSfPfHRrrmldxYTmPenpGxIrrTnKbSPCszQkPJr0SHzTFpSmmKpbZzTx5NJ3aGsJ' -- your webhook
 
 local embed1 = {
-    ["title"] = game.Players.LocalPlayer.Name .." Executed the script at: "..os.date("%H:%M", os.time())
+    ["title"] = game.Players.LocalPlayer.Name .." Executed the pubes gui script at: "..os.date("%H:%M", os.time())
 }
 local a =
     syn.request(
@@ -431,7 +431,15 @@ game.StarterGui:SetCore("SendNotification",  {
  Button1 = "SathLoves2GiveFemboysStats!";
  Callback = NotificationBindable;
 })
-
+wait(0.1)
+	 wait(0.4)
+                game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
+            game.Lighting.Blur.Enabled = false
+            game.Players.LocalPlayer.PlayerGui.IntroGui.Enabled = false
+            game.Players.LocalPlayer.PlayerGui.ScreenGui.Enabled = true
+    wait(2)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(291, 255, 846)
+    wait()
 
 	    else
     plr:Kick("Gay Gay Gay Gay Gay Gay Gay Gay Gay Gay Gay Gay") 
