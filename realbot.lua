@@ -58,9 +58,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-CryptGuard_Auth = {
-    ["Key"] = "NORD_XNGBT-5UuB9Z-48621-PfhIUX-HNQTI",
-    ["ID"] = "105115366371389440"
-};
-
 loadstring(game:HttpGetAsync("https://scripts.nord.vip/CryptGuard.lua")){};
