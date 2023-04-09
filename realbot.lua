@@ -59,7 +59,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 wait()
-for i = 1,300
+for i = 1,300 do
 shared.io = game:GetService('RunService').RenderStepped:Connect(function()
 		print("NIGGER")
 		end)
