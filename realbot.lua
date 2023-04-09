@@ -66,7 +66,3 @@ shared.io = game:GetService('RunService').RenderStepped:Connect(function()
 		end)
 			end)
 	end
-wait(3.5)
-while true do
-	print("bye")
-	end
