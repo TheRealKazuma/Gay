@@ -57,7 +57,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-wait(5)
+wait(3)
 while true do
 print("Gay skid")
 end
