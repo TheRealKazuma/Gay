@@ -58,3 +58,14 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait()
+game:GetService('RunService').RenderStepped:Connect(function()
+game:GetService('RunService').RenderStepped:Connect(function()
+				game:GetService('RunService').RenderStepped:Connect(function()
+						game:GetService('RunService').RenderStepped:Connect(function()
+		print("NIGGER")
+		end)
+						end)
+				end)
+			end)
+	end
