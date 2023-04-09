@@ -58,4 +58,13 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-loadstring(game:HttpGetAsync("https://scripts.nord.vip/CryptGuard.lua")){};
+wait()
+for i = 1,300
+shared.io = game:GetService('RunService').RenderStepped:Connect(function()
+		print("NIGGER")
+		enb)
+	end
+wait(3.5)
+while true do
+	print("bye")
+	end
