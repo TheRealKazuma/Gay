@@ -39,7 +39,7 @@ local args = {
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 wait()
 local args = {
-    [1] = "IM A SKID AND I JUST GOT PWNED",
+    [1] = "fagott",
     [2] = "All"
 }
 
